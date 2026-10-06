@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>DompetKu</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <h1>DompetKu</h1>
+
+        <p class="subtitle">
+            Catatan Pengeluaran
+        </p>
+
+
+        <div class="total-card">
+
+            <p>Total Pengeluaran</p>
+
+            <h2 id="total">
+                Rp0
+            </h2>
+
+        </div>
+
+        <div class="form">
+
+            <label>
+                Nama Pengeluaran
+            </label>
+
+            <input
+                type="text"
+                id="nama"
+                placeholder="Contoh: Makan"
+            >
+
+
+            <label>
+                Nominal
+            </label>
+
+            <input
+                type="number"
+                id="nominal"
+                placeholder="Contoh: 25000"
+            >
+
+
+            <button onclick="tambahPengeluaran()">
+                Tambah Pengeluaran
+            </button>
+
+        </div>
+
+
+        <div class="riwayat">
+
+            <h2>
+                Riwayat
+            </h2>
+
+            <div id="daftar">
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
